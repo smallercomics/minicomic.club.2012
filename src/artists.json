@@ -1,0 +1,62 @@
+[
+    {
+        "name" : "Pat Grant",
+        "link" : "http://patgrantart.com/",
+        "img" : "artist-pat.png"
+    },
+    {
+        "name" : "Andrew Fulton",
+        "link" : "http://mumblier.com/",
+        "img" : "artist-andrew.png"
+    },
+    {
+        "name" : "Rebecca Hayes",
+        "link" : "http://rebeccakhayes.com/",
+        "img" : "artist-bec.png"
+    },
+    {
+        "name" : "Ive Sorocuk",
+        "link" : "http://nonstopive.tumblr.com/",
+        "img" : "artist-ive.png"
+    },
+    {
+        "name" : "Azza Mckazza",
+        "link" : "http://happydance.com.au/",
+        "img" : "artist-arran.png"
+    },
+    {
+        "name" : "Marc Pearson",
+        "link" : "http://marcpearson.tumblr.com/",
+        "img" : "artist-marc.png"
+    },
+    {
+        "name" : "Jase Harper",
+        "link" : "http://guhcomics.com/",
+        "img" : "artist-jase.png"
+    },
+    {
+        "name" : "Gregory Mackay",
+        "link" : "http://gregorymackay.com/",
+        "img" : "artist-greg.png"
+    },
+    {
+        "name" : "Sarah Howell",
+        "link" : "http://www.sarahhowellprojects.com/",
+        "img" : "artist-sarah.png"
+    },
+    {
+        "name" : "Megan Nairn",
+        "link" : "http://megpiggy.com/",
+        "img" : "artist-megan.png"
+    },
+    {
+        "name" : "Sacha Bryning",
+        "link" : "http://sachabryning.com/",
+        "img" : "artist-sacha.jpg"
+    },
+    {
+        "name" : "Mandy Ord",
+        "link" : "http://mandyord.blogspot.com/",
+        "img" : "artist-mandy.png"
+    }
+]

@@ -1,0 +1,154 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body{
+    margin:0;
+    padding:0; 
+}
+
+
+.stripe {
+    text-align:center;
+
+    .inner{
+        max-width:90%;
+        margin:0 auto;
+    }
+
+    img{
+        display:block;
+        margin:0 auto;
+        max-width:100%;
+    }
+
+    &.blue{
+        background-color:#00aeef;
+    }
+    &.yellow{
+        background-color:#fff200;
+    }
+    &.magenta{
+        background-color:#ec008c;
+    }
+    &#the{
+        img{
+            position:relative;
+            top:16px;
+        }
+    }
+    &#banner{
+        img{
+            position:relative;
+            top:30px;
+        }
+        &+div{
+            padding-top:30px;
+        }
+    }
+}
+
+p{
+    margin: 0;
+    padding: 1em;
+}
+
+#artists{
+    .inner{
+        max-width:100%;
+        padding-top:10px;
+    a{
+        display:block;
+        width:200px;
+        height:200px;
+        margin:0 auto 10px auto;
+       
+        position:relative;
+        img{
+            display:block;
+        }
+        span{
+            position:absolute;
+            left:0;
+            bottom:0;
+            background-color:#fff200;
+        }
+    }
+
+     @media screen and (min-width: 420px) and (max-width: 639px){
+         overflow:hidden;
+         width:410px;
+         margin:0 auto;
+         a{
+            float:left;
+            margin-right:10px;
+            &:nth-child(2n+2){
+                margin-right:0
+            }
+         }
+            
+    }
+    @media screen and (min-width: 640px) and (max-width: 839px){
+        overflow:hidden;
+         width:620px;
+         margin:0 auto;
+         a{
+            float:left;
+            margin-right:10px;
+            &:nth-child(3n+3){
+                margin-right:0
+            }
+         }
+    }
+     @media screen and (min-width: 840px){
+        overflow:hidden;
+         width:830px;
+         margin:0 auto;
+         a{
+            float:left;
+            margin-right:10px;
+            &:nth-child(4n+4){
+                margin-right:0
+            }
+         }
+    }
+    }
+}
+.slink{
+    color:white;
+    text-decoration:none;
+    background-color:#00aeef;
+    padding:2px 4px;
+}
+#mc_embed_signup{
+    text-align:left;
+    width:400px;
+    max-width:100%;
+    margin:0 auto;
+
+    .mc-field-group{
+        overflow:hidden;
+    }
+
+    input{
+        display:block;
+        float:left;
+    }
+
+    input[type='email']{
+        padding:10px;
+        border:0;
+        width:75%;
+    }
+    input[type='submit']{
+        width:25%;
+        padding:10px;
+        border:0;
+        border-radius:0;
+        background-color:#ec008c;
+        color:white;
+    }
+}
