@@ -41,7 +41,7 @@
 
     </head>
     <body>
-      
+      {{> latest }}
       <div class="stripe blue">
         <img alt="It's happening again" src="img/{{ asset 'again.png'}}" />
       </div>
@@ -68,7 +68,7 @@
       </div>
       <div class="stripe yellow">
         <img alt="24 dollars" src="img/{{ asset '24-dollars.png' }}" />
-        <div class="inner">
+        <div class="inner" id="subscribe">
             <h2>This minicomic.club season has closed.</h2>
             <p><strong>There's always the next one!</strong> Join our mailing list and we'll keep you updated on when the next one happens!</p>
             {{> mailchimp }}
