@@ -76,7 +76,7 @@ gulp.task('watch', () => {
 
 gulp.task('webserver', ()=> {
   connect.server({
-    root: $distPath,
+    root: distPath,
     livereload: true
   })
 })
